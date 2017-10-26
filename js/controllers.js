@@ -3,7 +3,7 @@ var myApp = angular.module('myApp', []);
 
 myApp.controller('MyController', function MyController($scope) {
 
-  $scope.author = {
+  $scope.artists = {
     'name' : 'Emily Deans',
     'title' : 'Web Developer',
     'company' : 'Remains to Be Seen'
