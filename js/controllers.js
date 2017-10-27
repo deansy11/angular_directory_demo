@@ -1,7 +1,7 @@
 //app dependencies usually go in the brackets//
-var myApp = angular.module('myApp', []);
+var artistControllers = angular.module('artistControllers', []);
 
-myApp.controller('MyController', function MyController($scope) {
+artistControllers.controller('ListController', function ListController($scope) {
 
   $scope.artists = [
     {
